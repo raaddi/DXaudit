@@ -1,0 +1,6 @@
+reports/
+*.log
+*.tmp
+*.pdb
+*.json
+!checksums.sha256
