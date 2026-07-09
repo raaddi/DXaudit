@@ -43,6 +43,14 @@ After an audit, the application creates a local report package:
 - `README_DLA_KLIENTA.txt` - short guide for reading the report,
 - `offer_draft.md` - draft scope of recommended follow-up work.
 
+## Diagnostic Console 0.2.0
+
+- Mission Control dashboard with the latest local audit package and score overview.
+- Live module telemetry with finding counters while the scan is running.
+- Safe scan cancellation without exporting a partial report.
+- Finding register with search, severity filters, evidence details, remediation steps, and work-order context.
+- JSON baseline comparison for tracking resolved and newly detected findings.
+
 ## Privacy
 
 DXaudit runs locally. The MVP version does not upload reports to the internet. Privacy mode masks hostname, username, domain, IP addresses, local paths, and serial numbers in generated reports.
@@ -51,6 +59,6 @@ Details: [docs/PRIVACY.md](docs/PRIVACY.md)
 
 ## Status
 
-Current public version: `0.1.0 MVP`
+Current public version: `0.2.0 Diagnostic Console`
 
 This is an early product release. Audit results should be treated as a technical diagnostic aid, not as a guarantee of complete security.
